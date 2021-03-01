@@ -23,9 +23,6 @@ jobs:
       - name: Clean public directory
         run: rm -rf docs
 
-      - name: Create cname file
-        run: echo 'delphijourney.com' > docs/CNAME
-
       - name: Build
         run: hugo --minify
 
@@ -34,3 +31,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
+      
+      - name: Create cname file
+        run: echo 'delphijourney.com' > docs/CNAME
