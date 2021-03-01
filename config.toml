@@ -1,7 +1,7 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://wbabcock.github.io/"
+baseURL = "https://wbabcock.github.io/blog"
 title = "Delphi Journey"
 languageCode = "en"
 hasCJKLanguage = false
