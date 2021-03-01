@@ -30,7 +30,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          destination_dir: ./docs
-      
-      - name: Create cname file
-        run: echo 'delphijourney.com' > docs/CNAME
+          publish_dir: ./docs
+          cname: delphijourney.com
