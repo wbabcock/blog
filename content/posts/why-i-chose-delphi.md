@@ -2,6 +2,7 @@
 title: "Why I Chose Delphi"
 date: 2021-03-01T14:07:50-05:00
 draft: false
+comments: true
 ---
 
 What do I mean by choosing Delphi. Basically, as my main IDE and Object Pascal flavor of choice for most of my development I will use Delphi.  
